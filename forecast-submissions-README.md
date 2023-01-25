@@ -4,16 +4,16 @@ State-level forecasts for WNV neuroinvasive diseases cases in each remaining cal
 
 This page includes information on how to submit forecasts. These instructions have been adapted from the [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub) and are similar to those in the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022).
 
-All forecasts should be [submitted directly](#Making-a-submission) to the [data-forecasts/](./) folder in this repository. Forecast data should be added to the repository through a pull request so that automatic data validation checks are run.
+All forecasts should be [submitted directly](#Making-a-submission) to the [data_forecasts](./data_forecasts/) folder in this repository. Forecast data should be added to the repository through a pull request so that automatic data validation checks are run.
 
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
 [metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data-forecasts/METADATA.md) that each model should provide.
 
-See the [data-surveillance/](https://github.com/cdcepi/WNV-forecast-project-2023/tree/main/data-surveillance) folder for details on the reported WNV neuroinvasive case data. 
+See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/data_surveillance/) folder for details on the reported WNV neuroinvasive case data. 
 
 
 *Table of Contents*
- 
+
 -   [Data formatting for submission](#Data-formatting)
 -   [Forecast file format](#Forecast-file-format)
 -   [Making a submission](#Making-a-submission)
