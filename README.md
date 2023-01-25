@@ -8,7 +8,7 @@ To participate in the Challenge, please follow these steps:
 2. Prepare [metadata](./forecast-submissions-README.md#Data-formatting) for your model.
 3. [Submit forecasts](./forecast-submissions-README.md#Making-a-submission) by the deadlines.
 
-For information on submitting forecasts to this project, please see the [submission instructions](./data-forecasts/README.md). Participating teams provide their [forecasts](./data-forecasts/) in a [quantile-based format](./data-forecasts/README.md#Data-formatting) that will be evaluated according to [these criteria](./evaluation-README.md). 
+For information on submitting forecasts to this project, please see the [submission instructions](./forecast-submissions-README.md). Participating teams provide their [forecasts](./data-forecasts/) in a [quantile-based format](./forecast-submissions-README.md#Data-formatting) that will be evaluated according to [these criteria](./evaluation-README.md). 
 
 ### Timeline
 - Project announcement and historical data release: January 31, 2023.
