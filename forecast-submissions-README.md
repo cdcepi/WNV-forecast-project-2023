@@ -11,7 +11,6 @@ These instructions provide detail about the [data format](#Data-formatting) as w
 
 See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/data_surveillance/) folder for details on the reported WNV neuroinvasive case data. 
 
-
 *Table of Contents*
 
 -   [Data formatting for submission](#Data-formatting)
@@ -26,51 +25,51 @@ The automatic checks in place for forecast files submitted to this repository va
  
  
 ### Subdirectory
-Each subdirectory within the [data-forecasts/](data-forecasts/) directory has the format
- 
+Each subdirectory within the [data_forecasts](./data_forecasts/) directory has the format
+
     team-model
- 
+
 where
- 
+
 -   `team` is the name of your team and
 -   `model` is the name of your model.
- 
+
 Both team and model should be less than 15 characters and not include hyphens. The `model` should be unique from any other model in the project.
- 
+
 Within each subdirectory, there should be a metadata file, a license file (optional), and a set of forecasts.
- 
- 
+
+
 ### Metadata
 The metadata file should have the following format
- 
+
     metadata-team-model.txt
- 
+
 using this [structure of the metadata file](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data-forecasts/METADATA.md).
- 
- 
+
+
 ### License (optional)
-By default, forecasts are released under a CC-BY 4.0 license. If you would like to release your forecasts under a different license, please specify a [standard license](../accepted-licenses.csv) in the `license` field of your metadata file. Alternatively, if you wish to use a license that is not in the list of [standard licenses](../accepted-licenses.csv), you may include a 
- 
+By default, forecasts are released under a CC-BY 4.0 license. If you would like to release your forecasts under a different license, please specify a [standard license](./accepted-licenses.csv) in the `license` field of your metadata file. Alternatively, if you wish to use a license that is not in the list of [standard licenses](./accepted-licenses.csv), you may include a 
+
     LICENSE.txt
- 
+
 file in your model directory. 
- 
- 
+
+
 ### Forecasts
 Each forecast file within the subdirectory should have the following format
- 
+
     YYYY-MM-DD-team-model.csv
- 
+
 where
- 
+
 -   `YYYY` is the 4 digit year,
 -   `MM` is the 2 digit month,
 -   `DD` is the 2 digit day,
 -   `team` is the name of your team, and
 -   `model` is the name of your model.
- 
+
 The date YYYY-MM-DD is the [`forecast_date`](#forecast_date). For this project, the `forecast_date` is the date that the submission is due.
- 
+
 The `team` and `model` in this file must match the `team` and `model` in the directory this file is in. Both `team` and `model` should be less than 15 characters, alpha-numeric and underscores only, with no spaces or hyphens.
  
  
@@ -89,7 +88,7 @@ columns (in any order):
  
 No additional columns are allowed.
  
-Each row in the file is a single quantile forecast for a specific location. See the [template](./wnv_forecasting_template.csv) for an example.
+Each row in the file is a single quantile forecast for a specific location. See the [template](./data_forecasts/wnv_forecasting_template.csv) for an example.
  
  
 ### `forecast_date`
