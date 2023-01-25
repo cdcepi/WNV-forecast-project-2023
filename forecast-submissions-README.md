@@ -13,15 +13,11 @@ See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-202
 
 *Table of Contents*
 
-- [Data formatting for submission](#Data-formatting)
-
-- [Forecast file format](#Forecast-file-format)
-
-- [Making a submission](#Making-a-submission)
-
-- [Forecast data validation](#Forecast-validation)
-
-- [Policy on late submissions](#policy-on-late-or-updated-submissions)
+-	[Data formatting for submission](#Data-formatting)
+-	[Forecast file format](#Forecast-file-format)
+-	[Making a submission](#Making-a-submission)
+-	[Forecast data validation](#Forecast-validation)
+-	[Policy on late submissions](#policy-on-late-or-updated-submissions)
 
 
 ## Data Formatting
