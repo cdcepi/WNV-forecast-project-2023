@@ -71,10 +71,10 @@ where
 The date YYYY-MM-DD is the [`forecast_date`](#forecast_date). For this project, the `forecast_date` is the date that the submission is due.
 
 The `team` and `model` in this file must match the `team` and `model` in the directory this file is in. Both `team` and `model` should be less than 15 characters, alpha-numeric and underscores only, with no spaces or hyphens.
- 
- 
+
+
 ## Forecast File Format
- 
+
 The file must be a comma-separated value (csv) file with the following
 columns (in any order):
  
@@ -92,54 +92,52 @@ Each row in the file is a single quantile forecast for a specific location. See 
  
  
 ### `forecast_date`
- 
+
 Values in the `forecast_date` column must be a date in the format
- 
+
     YYYY-MM-DD
- 
+
 This is the date on which the forecasts were due to be submitted. `forecast_date` should correspond and be redundant with the date in the filename and is included here for internal completeness. 
- 
- 
+
+
 ### `target`
 Values in the `target` column must be the following character (string):
- 
+
     Monthly WNV neuroinvasive disease cases
- 
+
 The monthly number of West Nile virus (WNV) neuroinvasive disease cases (confirmed and probable following the [WNV neuroinvasive disease case definition](https://ndc.services.cdc.gov/case-definitions/arboviral-diseases-neuroinvasive-and-non-neuroinvasive-2015/)) reported to [ArboNET](https://wwwn.cdc.gov/arbonet/Maps/ADB_Diseases_Map/index.html) from each state in the contiguous United States in 2023.
- 
- 
+
+
 ### `target_end_date`
 Values in the `target_end_date` column must be a date in the format
- 
+
     YYYY-MM-DD 
- 
+
 This is the date of the end of the forecast period. Each forecast submission should include all `target_end_date`s that have not yet occurred from the set: 2023-05-31, 2023-06-30, 2023-07-31, 2023-08-31, 2023-09-30, 2023-10-31, 2023-11-30, and 2023-12-31.
- 
- 
+
 ### `location`
 The `location` column consists of the forecasted state, including spaces between words within the state name. The easiest way is to accomplish this and ensure that all forecasted locations match the expected forecast locations is by matching the format in the [location file](../data-locations/locations.csv).
- 
+
 ### `type`
 Values in the `type` column should all be the following string: "quantile".
- 
- 
+
 ### `quantile`
 Values in the `quantile` column are in the format
- 
+
     0.###
- 
+
 This value indicates the quantile for the `value` in this row.
- 
+
 Teams must provide the following 23 quantiles:
- 
+
     c(0.01, 0.025, seq(0.05, 0.95, by = 0.05), 0.975, 0.99)
- 
+
     ##  [1] 0.010 0.025 0.050 0.100 0.150 0.200 0.250 0.300 0.350 0.400 0.450 0.500
     ## [13] 0.550 0.600 0.650 0.700 0.750 0.800 0.850 0.900 0.950 0.975 0.990
- 
+
 ### `value`
 Values in the `value` column are non-negative real numbers indicating the “quantile” prediction for this row. This is the inverse of the cumulative distribution function for the `target`, `location`, and `quantile` associated with that row.
- 
+
  
 ## Making a Submission
 
