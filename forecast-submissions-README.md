@@ -1,16 +1,17 @@
-## Forecast submission instructions
-State-level forecasts for WNV neuroinvasive diseases cases in each remaining calendar month of 2023 should be produced and submitted by their respective [monthly due dates](https://github.com/cdcepi/WNV-forecast-project-2023#timeline), beginning on April 30, 2023. Please note that these monthly state-level forecasts differ from the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022), which requested annual county-level forecasts.
- 
+## Forecast Submission Instructions
+
+State-level forecasts for WNV neuroinvasive diseases cases in each remaining calendar month of 2023 should be produced and submitted by their respective [monthly due dates](https://github.com/cdcepi/WNV_Forecast_Challenge_2023/README.md#timeline), beginning on April 30, 2023. Please note that these monthly state-level forecasts differ from the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022), which requested annual county-level forecasts.
+
 This page includes information on how to submit forecasts. These instructions have been adapted from the [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub) and are similar to those in the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022).
- 
+
 All forecasts should be [submitted directly](#Making-a-submission) to the [data-forecasts/](./) folder in this repository. Forecast data should be added to the repository through a pull request so that automatic data validation checks are run.
- 
+
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
 [metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data-forecasts/METADATA.md) that each model should provide.
- 
+
 See the [data-surveillance/](https://github.com/cdcepi/WNV-forecast-project-2023/tree/main/data-surveillance) folder for details on the reported WNV neuroinvasive case data. 
- 
- 
+
+
 *Table of Contents*
  
 -   [Data formatting for submission](#Data-formatting)
@@ -18,8 +19,8 @@ See the [data-surveillance/](https://github.com/cdcepi/WNV-forecast-project-2023
 -   [Making a submission](#Making-a-submission)
 -   [Forecast data validation](#Forecast-validation)
 -   [Policy on late submissions](#policy-on-late-or-updated-submissions)
- 
- 
+
+
 ## Data Formatting
 The automatic checks in place for forecast files submitted to this repository validates both the filename and file contents to ensure the file can be used in the visualization and ensemble forecasting.
  
@@ -141,9 +142,9 @@ Teams must provide the following 23 quantiles:
 Values in the `value` column are non-negative real numbers indicating the “quantile” prediction for this row. This is the inverse of the cumulative distribution function for the `target`, `location`, and `quantile` associated with that row.
  
  
-## Making a submission
+## Making a Submission
  
-### Initial submission
+### Initial Submission
  
 To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the forked repository you created, make a [subdirectory](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data-forecasts/README.md#subdirectory) for your team in the [data-forecasts/](./) folder following the subdirectory [naming convention](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data-forecasts/README.md#subdirectory). This is where you will place all your forecasts, metadata, and optional license files.
  
@@ -158,13 +159,13 @@ Common reasons for a failed pull request: Excel changing the date format upon sa
 We will merge in open pull requests after each submission deadline.
  
  
-### Additional submissions
+### Additional Submissions
 Forecast submissions for the May through September deadlines, as well as updated metadata (when applicable), should also be made through pull requests. Those submissions should use the respective submission deadline in the file names and be placed in the same team-model subdirectory as the prior submissions.
  
 For additional submissions, indicate any modifications to the model and/or data under the `methods_long` variable in the [metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data-forecasts/METADATA.md#methods_long) file.
  
  
-## Forecast validation
+## Forecast Validation
  
 To ensure proper data formatting, automatic validations are run on all pull requests to
 `data-forecasts/`. 
@@ -174,5 +175,5 @@ To ensure proper data formatting, automatic validations are run on all pull requ
 When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-forecast-project-2023/issues) if you are facing issues while running the tests.
  
  
-## Policy on late or updated submissions
+## Policy on Late or Updated Submissions
 To ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by the listed [deadlines](https://github.com/cdcepi/WNV-forecast-project-2023#timeline). Late forecasts will not be accepted.
