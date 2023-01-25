@@ -9,7 +9,7 @@ All forecasts should be [submitted directly](#Making-a-submission) to the [data_
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
 [metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data-forecasts/METADATA.md) that each model should provide.
 
-See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/data_surveillance/) folder for details on the reported WNV neuroinvasive case data. 
+See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/data_surveillance/) folder for details on the reported WNV neuroinvasive case data.
 
 *Table of Contents*
 
