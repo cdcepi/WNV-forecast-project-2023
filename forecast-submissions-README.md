@@ -142,22 +142,22 @@ Values in the `value` column are non-negative real numbers indicating the “qua
  
  
 ## Making a Submission
- 
+
 ### Initial Submission
- 
-To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the forked repository you created, make a [subdirectory](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data-forecasts/README.md#subdirectory) for your team in the [data-forecasts/](./) folder following the subdirectory [naming convention](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data-forecasts/README.md#subdirectory). This is where you will place all your forecasts, metadata, and optional license files.
- 
+
+To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the forked repository you created, make a [subdirectory](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/README.md#subdirectory) for your team in the [data_forecasts](./data_forecasts/) folder following the subdirectory [naming convention](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/README.md#subdirectory). This is where you will place all your forecasts, metadata, and optional license files.
+
 Use a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create your submission. Open a pull request from your forked repository to the original repository. This will initiate merging your changes into the main repository. With the pull request, automatic data validation checks on file format and content are run. More information on making a pull request can be found [here](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
- 
+
 The initial submission should include the forecast for April 30 and the metadata file describing the model. An optional license file can also be included. Note, validations will fail if there are other commits than just these files in the pull request. Teams are encouraged to submit early for the initial submission to work out the kinks of pull requests and validations. Submissions can be updated at any point prior to the submission deadline. Note that if you submit more than a day before the first submission deadline (April 30, 2023), the automatic validations will flag the submission, but this is not a problem assuming the rest of the checks pass successfully.
- 
+
 When a pull request is open, you can add/modify files in the pull request by pushing changes from your forked repository. This will allow you to address any problems found during the validation checks. Automatic checks run after each push so you can check if you were able to resolve the problems listed.
- 
+
 Common reasons for a failed pull request: Excel changing the date format upon saving the .csv, misspelled column headers or keys in the metadata.
- 
+
 We will merge in open pull requests after each submission deadline.
- 
- 
+
+
 ### Additional Submissions
 Forecast submissions for the May through September deadlines, as well as updated metadata (when applicable), should also be made through pull requests. Those submissions should use the respective submission deadline in the file names and be placed in the same team-model subdirectory as the prior submissions.
  
@@ -165,14 +165,14 @@ For additional submissions, indicate any modifications to the model and/or data 
  
  
 ## Forecast Validation
- 
+
 To ensure proper data formatting, automatic validations are run on all pull requests to
 `data-forecasts/`. 
- 
- 
+
+
 ### Pull Request Forecast Validation
-When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-forecast-project-2023/issues) if you are facing issues while running the tests.
- 
- 
+When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/issues) if you are facing issues while running the tests.
+
+
 ## Policy on Late or Updated Submissions
-To ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by the listed [deadlines](https://github.com/cdcepi/WNV-forecast-project-2023#timeline). Late forecasts will not be accepted.
+To ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by the listed [deadlines](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/README.md#timeline). Late forecasts will not be accepted.
