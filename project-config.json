@@ -1,0 +1,62 @@
+{
+  "location_filepath": "data_locations/locations.csv",
+  "hub_repository_name": "cdcepi/WNV_Forecast_Project_2023",
+  "forecast_folder_name": "data-forecasts",
+  "target_groups": [
+    {
+      "outcome_variable": "cases",
+      "targets": [
+        "Monthly WNV neuroinvasive disease cases"
+      ],
+      "locations": ["Alabama", "Arizona", "Arkansas", "California",
+                           "Colorado", "Connecticut", "Delaware", "District of Columbia",
+                           "Florida", "Georgia", "Idaho", "Illinois","Indiana",
+                           "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine",
+                           "Maryland", "Massachusetts", "Michigan", "Minnesota",
+                           "Mississippi", "Missouri", "Montana", "Nebraska",
+                           "Nevada", "New Hampshire", "New Jersey", "New Mexico",
+                           "New York", "North Carolina", "North Dakota", "Ohio",
+                           "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island",
+                           "South Carolina", "South Dakota", "Tennessee", "Texas",
+                           "Utah", "Vermont", "Virginia", "Washington",
+                           "West Virginia", "Wisconsin", "Wyoming"
+      ],
+      "quantiles": [
+        0.010,
+        0.025,
+        0.050,
+        0.100,
+        0.150,
+        0.200,
+        0.250,
+        0.300,
+        0.350,
+        0.400,
+        0.450,
+        0.500,
+        0.550,
+        0.600,
+        0.650,
+        0.700,
+        0.750,
+        0.800,
+        0.850,
+        0.900,
+        0.950,
+        0.975,
+        0.990
+      ]
+    }
+  ],
+  "forecast_dates": [
+    "2023-04-30", 
+    "2023-05-31",
+    "2023-06-30",
+    "2023-07-31",
+    "2023-08-31",
+    "2023-09-30",
+  ],
+  "updates_allowed": false,
+  "automerge_on_passed_validation": false,
+  "submission_formatting_instruction": "https://github.com/cdcepi/WNV_Forecast_Project_2023/blob/main/forecast-submissions-README.md#Data-formatting"
+}
