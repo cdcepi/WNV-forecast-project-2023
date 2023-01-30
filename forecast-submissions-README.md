@@ -17,7 +17,7 @@ See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-202
 -	[Forecast file format](#Forecast-file-format)
 -	[Making a submission](#Making-a-submission)
 -	[Forecast data validation](#Forecast-validation)
--	[Policy on late submissions](#policy-on-late-or-updated-submissions)
+-	[Late submissions](#late-or-updated-submissions)
 
 
 ## Data Formatting
@@ -172,5 +172,5 @@ To ensure proper data formatting, automatic validations are run on all pull requ
 When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/issues) if you are facing issues while running the tests.
 
 
-## Policy on Late or Updated Submissions
+## Late or Updated Submissions
 To ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by the listed [deadlines](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/README.md#timeline). Late forecasts will not be accepted.
