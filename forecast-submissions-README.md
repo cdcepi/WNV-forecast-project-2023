@@ -7,7 +7,7 @@ This page includes information on how to submit forecasts. These instructions ha
 All forecasts should be [submitted directly](#Making-a-submission) to the [data_forecasts](./data_forecasts/) folder in this repository. Forecast data should be added to the repository through a pull request so that automatic data validation checks are run.
 
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
-[metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data-forecasts/METADATA.md) that each model should provide.
+[metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data_forecasts/metadata.md) that each model should provide.
 
 See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/data_surveillance/) folder for details on the reported WNV neuroinvasive case data.
 
@@ -44,7 +44,7 @@ The metadata file should have the following format
 
     metadata-team-model.txt
 
-using this [structure of the metadata file](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data-forecasts/METADATA.md).
+using this [structure of the metadata file](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data_forecasts/metadata.md).
 
 
 ### License (optional)
@@ -159,7 +159,7 @@ We will merge in open pull requests after each submission deadline.
 ### Additional Submissions
 Forecast submissions for the May through September deadlines, as well as updated metadata (when applicable), should also be made through pull requests. Those submissions should use the respective submission deadline in the file names and be placed in the same team-model subdirectory as the prior submissions.
  
-For additional submissions, indicate any modifications to the model and/or data under the `methods_long` variable in the [metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data-forecasts/METADATA.md#methods_long) file.
+For additional submissions, indicate any modifications to the model and/or data under the `methods_long` variable in the [metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data_forecasts/metadata.md#methods_long) file.
  
  
 ## Forecast Validation
