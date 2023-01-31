@@ -116,7 +116,7 @@ Values in the `target_end_date` column must be a date in the format
 This is the date of the end of the forecast period. Each forecast submission should include all `target_end_date`s that have not yet occurred from the set: 2023-05-31, 2023-06-30, 2023-07-31, 2023-08-31, 2023-09-30, 2023-10-31, 2023-11-30, and 2023-12-31.
 
 ### `location`
-The `location` column consists of the forecasted state, including spaces between words within the state name. The easiest way is to accomplish this and ensure that all forecasted locations match the expected forecast locations is by matching the format in the [location file](../data_locations/locations.csv).
+The `location` column consists of the forecasted state, including spaces between words within the state name. The easiest way is to accomplish this and ensure that all forecasted locations match the expected forecast locations is by matching the format in the [location file](./data_locations/locations.csv).
 
 ### `type`
 Values in the `type` column should all be the following string: "quantile".
