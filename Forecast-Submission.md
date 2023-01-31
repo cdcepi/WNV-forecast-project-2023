@@ -9,14 +9,14 @@ All forecasts should be [submitted directly](#Making-a-submission) to the [data-
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
 [metadata](./data_forecasts/metadata.md) that each model should provide.
 
-See the [Data-Surveillance](./Data-Surveillance.md) for details on the reported WNV neuroinvasive case data.
+See the [Data-Surveillance](./Data-Surveillance.md) page for details on the reported WNV neuroinvasive case data.
 
 *Table of Contents*
 
--	[Data formatting for submission](#Data-formatting)
--	[Forecast file format](#Forecast-file-format)
--	[Making a submission](#Making-a-submission)
--	[Forecast data validation](#Forecast-validation)
+-	[Data formatting for submission](#data-formatting)
+-	[Forecast file format](#forecast-file-format)
+-	[Making a submission](#making-a-submission)
+-	[Forecast data validation](#forecast-validation)
 -	[Late submissions](#late-or-updated-submissions)
 
 
