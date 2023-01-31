@@ -4,11 +4,11 @@ This is the data repository for the 2023 CDC West Nile virus Forecasting Challen
 
 ### Participation
 To participate in the Challenge, please follow these steps:
-1. [Request WNV data](./data-surveillance-README.md) by sending a signed Data Use Agreement to <vbd-predict@cdc.gov>.
-2. Prepare [metadata](./forecast-submissions-README.md#Data-formatting) for your model.
-3. [Submit forecasts](./forecast-submissions-README.md#Making-a-submission) by the deadlines.
+1. [Request WNV data](./Data-Surveillance.md) by sending a signed Data Use Agreement to <vbd-predict@cdc.gov>.
+2. Prepare [metadata](./Forecast-Submission.md#Data-formatting) for your model.
+3. [Submit forecasts](./Forecast-Submission.md#Making-a-submission) by the deadlines.
 
-For information on submitting forecasts to this project, please see the [submission instructions](./forecast-submissions-README.md). Participating teams provide their [forecasts](./data_forecasts/) in a [quantile-based format](./forecast-submissions-README.md#Data-formatting) that will be evaluated according to [these criteria](./evaluation-README.md). 
+For information on submitting forecasts to this project, please see the [submission instructions](./Forecast-Submission.md). Participating teams provide their [forecasts](./data_forecasts/) in a [quantile-based format](./Forecast-Submission.md#Data-formatting) that will be evaluated according to [these criteria](./Evaluation.md). 
 
 ### Timeline
 - Project announcement and historical data release: January 31, 2023.
