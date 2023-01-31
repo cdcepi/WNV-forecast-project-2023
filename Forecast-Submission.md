@@ -168,7 +168,7 @@ To ensure proper data formatting, automatic validations are run on all pull requ
 
 
 ### Pull Request Forecast Validation
-When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](./issues/) if you are facing issues while running the tests.
+When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-forecast-project-2023/issues) if you are facing issues while running the tests.
 
 
 ## Late or Updated Submissions
