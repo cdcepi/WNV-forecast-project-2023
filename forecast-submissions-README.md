@@ -159,7 +159,7 @@ We will merge in open pull requests after each submission deadline.
 ### Additional Submissions
 Forecast submissions for the May through September deadlines, as well as updated metadata (when applicable), should also be made through pull requests. Those submissions should use the respective submission deadline in the file names and be placed in the same team-model subdirectory as the prior submissions.
  
-For additional submissions, indicate any modifications to the model and/or data under the `methods_long` variable in the [metadata](https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/data_forecasts/metadata.md#methods_long) file.
+For additional submissions, indicate any modifications to the model and/or data under the `methods_long` variable in the [metadata](./data_forecasts/metadata.md#methods_long) file.
  
  
 ## Forecast Validation
@@ -169,8 +169,8 @@ To ensure proper data formatting, automatic validations are run on all pull requ
 
 
 ### Pull Request Forecast Validation
-When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/issues) if you are facing issues while running the tests.
+When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](./issues/) if you are facing issues while running the tests.
 
 
 ## Late or Updated Submissions
-To ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by the listed [deadlines](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/README.md#timeline). Late forecasts will not be accepted.
+To ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by the listed [deadlines](./README.md#timeline). Late forecasts will not be accepted.
