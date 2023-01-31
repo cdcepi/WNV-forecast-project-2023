@@ -9,7 +9,7 @@ All forecasts should be [submitted directly](#Making-a-submission) to the [data_
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
 [metadata](./data_forecasts/metadata.md) that each model should provide.
 
-See the [data_surveillance](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/data_surveillance/) folder for details on the reported WNV neuroinvasive case data.
+See the [data_surveillance](./data_surveillance/) folder for details on the reported WNV neuroinvasive case data.
 
 *Table of Contents*
 
@@ -44,7 +44,7 @@ The metadata file should have the following format
 
     metadata-team-model.txt
 
-using this [structure of the metadata file](https://github.com/cdcepi/WNV-forecast-project-2023/blob/master/data_forecasts/metadata.md).
+using this [structure of the metadata file](./data_forecasts/metadata.md).
 
 
 ### License (optional)
@@ -88,7 +88,7 @@ columns (in any order):
  
 No additional columns are allowed.
  
-Each row in the file is a single quantile forecast for a specific location. See the [template](./data_forecasts/wnv_forecasting_template.csv) for an example.
+Each row in the file is a single quantile forecast for a specific location. See the [template](./data_forecasts/WNV_forecast_April_template.csv) for an example.
  
  
 ### `forecast_date`
