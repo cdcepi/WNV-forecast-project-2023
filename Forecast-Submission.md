@@ -1,6 +1,6 @@
 ## Forecast Submission Instructions
 
-State-level forecasts for WNV neuroinvasive diseases cases in each remaining calendar month of 2023 should be produced and submitted by their respective [monthly due dates](./README.md#timeline), beginning on April 30, 2023. Please note that these monthly state-level forecasts differ from the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022), which requested annual county-level forecasts.
+State-level forecasts for WNV neuroinvasive diseases cases in each remaining calendar month of 2023 should be produced and submitted by their respective [monthly due dates](./README.md#timeline), beginning on April 30, 2023. Please note that these monthly state-level forecasts differ from the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022), which evaluated annual county-level forecasts.
 
 This page includes information on how to submit forecasts. These instructions have been adapted from the [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub) and are similar to those in the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022).
 
@@ -113,7 +113,7 @@ Values in the `target_end_date` column must be a date in the format
 
     YYYY-MM-DD 
 
-This is the date of the end of the forecast period. Each forecast submission should include all `target_end_date`s that have not yet occurred from the set: 2023-05-31, 2023-06-30, 2023-07-31, 2023-08-31, 2023-09-30, 2023-10-31, 2023-11-30, and 2023-12-31.
+This is the date of the end of the forecast period. Each forecast submission should include each `target_end_date` that has not yet occurred from the set: 2023-05-31, 2023-06-30, 2023-07-31, 2023-08-31, 2023-09-30, 2023-10-31, 2023-11-30, and 2023-12-31.
 
 ### `location`
 The `location` column consists of the forecasted state, including spaces between words within the state name. The easiest way is to accomplish this and ensure that all forecasted locations match the expected forecast locations is by matching the format in the [location file](./data_locations/locations.csv).
