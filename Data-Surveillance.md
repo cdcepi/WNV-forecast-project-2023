@@ -4,7 +4,7 @@ This page provides information on the surveillance data provided to participatin
  
 ## Data Use
 
-In order to receive the data, all teams need to submit a completed [data request form](./data_surveillance/data-use-agreement.pdf) to <vbd-predict@cdc.gov>. On behalf of all team members, the team lead should fill out items 1-3 on page 3 and date and sign page 4 to acknowledge the following limitations of ArboNET data:
+In order to receive the data, all teams need to submit a completed [data request form](data-use-agreement.pdf) to <vbd-predict@cdc.gov>. On behalf of all team members, the team lead should fill out items 1-3 on page 3 and date and sign page 4 to acknowledge the following limitations of ArboNET data:
  
 1. Access to ArboNET data is limited to team members named on the model submission form. The data provided will be treated as confidential and should not be provided to other persons. All other requests for access to ArboNET data should be directed to the CDC Arboviral Diseases Branch (<dvbid2@cdc.gov>). Comments or questions about the challenge should be directed to <vbd-predict@cdc.gov>.
 2. The data are provided for the purpose of statistical reporting and analysis only and may not be combined with other data or information for the purpose of matching records to identify individuals. Any information that could be used directly or indirectly to identify individuals will not be disclosed. If the identity of a person included in the data is discovered inadvertently, that information should not be disclosed or otherwise made public.
