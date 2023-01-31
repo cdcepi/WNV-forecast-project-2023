@@ -1,6 +1,6 @@
 {
   "location_filepath": "data_locations/locations.csv",
-  "hub_repository_name": "cdcepi/WNV_Forecast_Project_2023",
+  "hub_repository_name": "cdcepi/WNV-forecast-project-2023",
   "forecast_folder_name": "data-forecasts",
   "target_groups": [
     {
@@ -58,5 +58,5 @@
   ],
   "updates_allowed": false,
   "automerge_on_passed_validation": false,
-  "submission_formatting_instruction": "https://github.com/cdcepi/WNV_Forecast_Project_2023/blob/main/forecast-submissions-README.md#Data-formatting"
+  "submission_formatting_instruction": "https://github.com/cdcepi/WNV-forecast-project-2023/blob/main/Forecast-Submission.md#Data-formatting"
 }
