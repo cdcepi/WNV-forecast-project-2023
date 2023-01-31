@@ -4,7 +4,7 @@ State-level forecasts for WNV neuroinvasive diseases cases in each remaining cal
 
 This page includes information on how to submit forecasts. These instructions have been adapted from the [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub) and are similar to those in the [2022 West Nile Virus Forecasting Challenge](https://github.com/cdcepi/WNV-forecast-data-2022).
 
-All forecasts should be [submitted directly](#Making-a-submission) to the [data_forecasts](./data_forecasts/) folder in this repository. Forecast data should be added to the repository through a pull request so that automatic data validation checks are run.
+All forecasts should be [submitted directly](#Making-a-submission) to the [data-forecasts](./data-forecasts/) folder in this repository. Forecast data should be added to the repository through a pull request so that automatic data validation checks are run.
 
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
 [metadata](./data_forecasts/metadata.md) that each model should provide.
@@ -25,7 +25,7 @@ The automatic checks in place for forecast files submitted to this repository va
  
  
 ### Subdirectory
-Each subdirectory within the [data_forecasts](./data_forecasts/) directory has the format
+Each subdirectory within the [data-forecasts](./data_forecasts/) directory has the format
 
     team-model
 
@@ -143,7 +143,7 @@ Values in the `value` column are non-negative real numbers indicating the “qua
 
 ### Initial Submission
 
-To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the forked repository you created, make a [subdirectory](./README.md#subdirectory) for your team in the [data_forecasts](./data_forecasts/) folder following the subdirectory [naming convention](./README.md#subdirectory). This is where you will place all your forecasts, metadata, and optional license files.
+To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the forked repository you created, make a [subdirectory](./README.md#subdirectory) for your team in the [data-forecasts](./data-forecasts/) folder following the subdirectory [naming convention](./README.md#subdirectory). This is where you will place all your forecasts, metadata, and optional license files.
 
 Use a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create your submission. Open a pull request from your forked repository to the original repository. This will initiate merging your changes into the main repository. With the pull request, automatic data validation checks on file format and content are run. More information on making a pull request can be found [here](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
 
@@ -164,8 +164,7 @@ For additional submissions, indicate any modifications to the model and/or data 
  
 ## Forecast Validation
 
-To ensure proper data formatting, automatic validations are run on all pull requests to
-`data-forecasts/`. 
+To ensure proper data formatting, automatic validations are run on all pull requests to `data-forecasts/`. 
 
 
 ### Pull Request Forecast Validation
