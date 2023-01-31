@@ -143,7 +143,7 @@ Values in the `value` column are non-negative real numbers indicating the “qua
 
 ### Initial Submission
 
-To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the forked repository you created, make a [subdirectory](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/README.md#subdirectory) for your team in the [data_forecasts](./data_forecasts/) folder following the subdirectory [naming convention](https://github.com/cdcepi/WNV-Forecast-Challenge-2023/README.md#subdirectory). This is where you will place all your forecasts, metadata, and optional license files.
+To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the forked repository you created, make a [subdirectory](./README.md#subdirectory) for your team in the [data_forecasts](./data_forecasts/) folder following the subdirectory [naming convention](./README.md#subdirectory). This is where you will place all your forecasts, metadata, and optional license files.
 
 Use a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create your submission. Open a pull request from your forked repository to the original repository. This will initiate merging your changes into the main repository. With the pull request, automatic data validation checks on file format and content are run. More information on making a pull request can be found [here](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
 
