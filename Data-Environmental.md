@@ -8,6 +8,8 @@ Participants are free to use any sources of environmental data that they would l
 
   * NOAA National Centers for Environmental Information: [https://www.ncdc.noaa.gov/data-access](https://www.ncdc.noaa.gov/data-access) and [https://www.ncdc.noaa.gov/cdo-web/](https://www.ncdc.noaa.gov/cdo-web/)
 
+  * NOAA U.S. Climate Gridded Dataset (NClimGrid): [https://registry.opendata.aws/noaa-nclimgrid/](https://registry.opendata.aws/noaa-nclimgrid/) and [https://github.com/NOAA-Big-Data-Program/EpiNOAA-R/](https://github.com/NOAA-Big-Data-Program/EpiNOAA-R/)
+
   * PRISM Climate Group: [http://prism.oregonstate.edu/](http://prism.oregonstate.edu/)
 
   * Multi-Resolution Land Characteristics Consortium: [https://www.mrlc.gov/](https://www.mrlc.gov/)
