@@ -44,7 +44,7 @@ The metadata file should have the following format
 
     metadata-team-model.txt
 
-using this [structure of the metadata file](./data_forecasts/metadata.md).
+using this [structure of the metadata file](./data-forecasts/metadata.md).
 
 
 ### License (optional)
