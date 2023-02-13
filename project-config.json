@@ -1,5 +1,5 @@
 {
-  "location_filepath": "data_locations/locations.csv",
+  "location_filepath": "data-locations/locations.csv",
   "hub_repository_name": "cdcepi/WNV-forecast-project-2023",
   "forecast_folder_name": "data-forecasts",
   "target_groups": [
