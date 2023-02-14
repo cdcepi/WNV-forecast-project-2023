@@ -6,7 +6,14 @@
     {
       "outcome_variable": "cases",
       "targets": [
-        "Monthly WNV neuroinvasive disease cases"
+        "May WNV neuroinvasive disease cases",
+	"June WNV neuroinvasive disease cases",
+	"July WNV neuroinvasive disease cases",
+	"August WNV neuroinvasive disease cases",
+	"September WNV neuroinvasive disease cases",
+	"October WNV neuroinvasive disease cases",
+	"November WNV neuroinvasive disease cases",
+	"December WNV neuroinvasive disease cases"
       ],
       "locations": ["Alabama", "Arizona", "Arkansas", "California",
                            "Colorado", "Connecticut", "Delaware", "District of Columbia",
@@ -55,16 +62,6 @@
     "2023-07-31",
     "2023-08-31",
     "2023-09-30"
-  ],
-  "target_end_dates": [
-    "2023-05-31",
-    "2023-06-30",
-    "2023-07-31",
-    "2023-08-31",
-    "2023-09-30",
-    "2023-10-31",
-    "2023-11-30",
-    "2023-12-31"
   ],
   "updates_allowed": false,
   "automerge_on_passed_validation": false,
