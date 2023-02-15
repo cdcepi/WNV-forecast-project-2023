@@ -93,7 +93,7 @@ Each row in the file is a single quantile forecast for a specific location. See 
  
 ### `forecast_date`
 
-Values in the `forecast_date` column must be a date in the format
+Values in the `forecast_date` column must be a date in the format:
 
     YYYY-MM-DD
 
@@ -101,15 +101,16 @@ This is the date on which the forecasts were due to be submitted. `forecast_date
 
 
 ### `target`
-Values in the `target` column must be the following character (string):
+Values in the `target` column must be a string starting with the target month and ending in 'WNV neuroinvasive disease cases' in the following format. For example:
 
-    Monthly WNV neuroinvasive disease cases
+    May WNV neuroinvasive disease cases
+    December WNV neuroinvasive disease cases
 
-The monthly number of West Nile virus (WNV) neuroinvasive disease cases (confirmed and probable following the [WNV neuroinvasive disease case definition](https://ndc.services.cdc.gov/case-definitions/arboviral-diseases-neuroinvasive-and-non-neuroinvasive-2015/)) reported to [ArboNET](https://wwwn.cdc.gov/arbonet/Maps/ADB_Diseases_Map/index.html) from each state in the contiguous United States in 2023.
+The month should match the month of the target_end_date. The monthly number of West Nile virus (WNV) neuroinvasive disease cases (confirmed and probable following the [WNV neuroinvasive disease case definition](https://ndc.services.cdc.gov/case-definitions/arboviral-diseases-neuroinvasive-and-non-neuroinvasive-2015/)) is the case count reported to [ArboNET](https://wwwn.cdc.gov/arbonet/Maps/ADB_Diseases_Map/index.html) from each state in the contiguous United States in 2023.
 
 
 ### `target_end_date`
-Values in the `target_end_date` column must be a date in the format
+Values in the `target_end_date` column must be a date in the format:
 
     YYYY-MM-DD 
 
