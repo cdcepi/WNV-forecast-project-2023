@@ -105,8 +105,6 @@ Values in the `target` column must be a string starting with the target month an
 
     May WNV neuroinvasive disease cases
 
-    December WNV neuroinvasive disease cases
-
 The month should match the month of the target_end_date. The monthly number of West Nile virus (WNV) neuroinvasive disease cases (confirmed and probable following the [WNV neuroinvasive disease case definition](https://ndc.services.cdc.gov/case-definitions/arboviral-diseases-neuroinvasive-and-non-neuroinvasive-2015/)) is the case count reported to [ArboNET](https://wwwn.cdc.gov/arbonet/Maps/ADB_Diseases_Map/index.html) from each state in the contiguous United States in 2023.
 
 
