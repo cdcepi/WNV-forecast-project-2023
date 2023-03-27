@@ -1,4 +1,4 @@
-### Mosquito Data
+## Mosquito Data
 
 Participants may use [mosquito abundance and infection data](https://github.com/vectorsurv/cdc-forecasting-challenge/tree/main/2023-wnv) compiled by [VectorSurv](https://vectorsurv.org/) to supplement their forecast models. Updated current season data will be released on the 15th of each month. Initial data files will be available on April 1st, 2023, including a complement of historical data.
 

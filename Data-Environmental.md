@@ -1,4 +1,4 @@
-### Environmental Data
+## Environmental Data
 
 Participants are free to use any sources of environmental data that they would like. We present here a partial list of potential sources of useful environmental data, but there is no obligation to use any particular data source or to limit data sources to these.
 
