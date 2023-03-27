@@ -2,7 +2,7 @@
 
 Each model is required to have metadata in [yaml format](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html), e.g. [see this metadata file](https://github.com/reichlab/covid19-forecast-hub/blob/master/data-processed/JHU_IDD-CovidSP/metadata-JHU_IDD-CovidSP.txt).
 
-This file describes each of the variables (keys) that should be included in the submitted yaml document. Please order the variables in this order. Note that some of the required variables are not applicable to the format  of the Challenge, but are still required for the [validations](../forecast-submissions-README.md#Forecast-validation) to run. We note what to include in these fields below.
+This file describes each of the variables (keys) that should be included in the submitted yaml document. Please order the variables in this order. Note that some of the required variables are not applicable to the format  of the Challenge, but are still required for the [validations](../Forecast-Submission.md#Forecast-validation) to run. We note what to include in these fields below.
 
 
 ## Required Variables

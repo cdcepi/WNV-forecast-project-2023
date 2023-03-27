@@ -7,9 +7,9 @@ This page includes information on how to submit forecasts. These instructions ha
 All forecasts should be [submitted directly](#Making-a-submission) to the [data-forecasts](./data-forecasts/) folder in this repository. Forecast data should be added to the repository through a pull request so that automatic data validation checks are run.
 
 These instructions provide detail about the [data format](#Data-formatting) as well as [validation](#Forecast-validation) that you can do prior to this pull request. In addition, we describe the
-[metadata](./data_forecasts/metadata.md) that each model should provide.
+[metadata](./data-forecasts/metadata.md) that each model should provide.
 
-See the [Data-Surveillance](./Data-Surveillance.md) page for details on the reported WNV neuroinvasive case data.
+See the [Human Data Surveillance](./Human-Data.md) page for details on the reported WNV neuroinvasive case data.
 
 *Table of Contents*
 
@@ -25,7 +25,7 @@ The automatic checks in place for forecast files submitted to this repository va
  
  
 ### Subdirectory
-Each subdirectory within the [data-forecasts](./data_forecasts/) directory has the format
+Each subdirectory within the [data-forecasts](./data-forecasts/) directory has the format
 
     team-model
 
@@ -88,7 +88,7 @@ columns (in any order):
  
 No additional columns are allowed.
  
-Each row in the file is a single quantile forecast for a specific location. See the [template](./data_forecasts/WNV_forecast_April_template.csv) for an example.
+Each row in the file is a single quantile forecast for a specific location. See the [template](./data-forecasts/WNV_forecast_April_template.csv) for an example.
  
  
 ### `forecast_date`
@@ -159,7 +159,7 @@ We will merge in open pull requests after each submission deadline.
 ### Additional Submissions
 Forecast submissions for the May through September deadlines, as well as updated metadata (when applicable), should also be made through pull requests. Those submissions should use the respective submission deadline in the file names and be placed in the same team-model subdirectory as the prior submissions.
  
-For additional submissions, indicate any modifications to the model and/or data under the `methods_long` variable in the [metadata](./data_forecasts/metadata.md#methods_long) file.
+For additional submissions, indicate any modifications to the model and/or data under the `methods_long` variable in the [metadata](./data-forecasts/metadata.md#methods_long) file.
  
  
 ## Forecast Validation
@@ -168,7 +168,7 @@ To ensure proper data formatting, automatic validations are run on all pull requ
 
 
 ### Pull Request Forecast Validation
-When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-forecast-project-2023/issues) if you are facing issues while running the tests.
+When a pull request is submitted, the data are validated through [GitHub Actions](https://docs.github.com/en/actions) which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent for these tests are to validate the requirements above.  Please [let us know](https://github.com/cdcepi/WNV-forecast-project-2023/issues) if you are facing issues while running the tests.
 
 
 ## Late or Updated Submissions
