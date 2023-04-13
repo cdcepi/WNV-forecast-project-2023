@@ -12,8 +12,9 @@ For information on submitting forecasts to this project, please see the [submiss
 
 ### Timeline
 - Project announcement and historical data release: January 31, 2023.
-- Initial forecast due: April 30, 2023.
-- Subsequent forecasts due at the end of each month through September: May 31st, June 30th, July 31st, August 31st, and September 30th, 2023.
+- Initial forecast submission due: April 30, 2023.
+- Subsequent forecast submissions due at the end of each month through September: May 31st, June 30th, July 31st, August 31st, and September 30th, 2023.
+    - Each forecast submission should include forecasts for all remaining months of 2023.
 
 ### Available and Suggested Data Resources
 - Human WNV case data: state-month WNV case counts reported to the CDC are [available through request as detailed](Data-Human.md).
