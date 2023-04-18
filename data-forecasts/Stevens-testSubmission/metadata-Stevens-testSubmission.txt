@@ -1,6 +1,6 @@
 team_name: Stevens WNV Forecasting Team
 model_name: TestSubmissionModel
-model_abbr: TestSubmission
+model_abbr: testSubmission
 model_contributors: Ishaan Sinha (Stevens Institute of Technology) <ishaan.mohan.sinha@gmail.com>, Nikhil Muralidhar (Stevens Institute of Technology) <nmurali1@stevens.edu>
 website_url: https://github.com/ishaan-sinha/WNV2023Challenge
 license: cc-by-4.0
