@@ -8,4 +8,3 @@ team_model_designation: primary
 methods: This is a test model, so no methods are used
 ensemble_of_hub_models: false
 data_inputs: This is a test model, so no inputs are used
-institutional_affil: Stevens Institute of Technology
