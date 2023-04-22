@@ -1,6 +1,6 @@
 team_name: KSUUSDA
 model_name: ICCBayesian
-model_abbr: ICCB
+model_abbr: ICCBayesian
 model_contributors: Saman Hosseini (Kansas State University) <shosseini@jhu.edu>,  John M Humphreys (Centers for Disease Control), Lee Cohnstaedt (U.S.Department of Agriculture), Caterina Scoglio (Kansas Satet University)
 website_url: https://github.com/Samanksu
 license: cc-by-4.0
