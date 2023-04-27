@@ -1,0 +1,13 @@
+
+team_name: Sentinel
+model_name: INLA
+model_abbr: sentinel-inla
+model_contributors: Simon Frost (Microsoft Premonition) <sdwfrost@microsoft.com>, Rory Gibb (UCL) <rory.gibb.14@ucl.ac.uk>, Natalie Imirzian (Institute of Zoology) <natalie.imirzian@ioz.ac.uk>, Kate Jones (UCL) <kate.e.jones@ucl.ac.uk>, David Redding (Institute of Zoology) <dwredding@gmail.com>
+website_url: https://github.com/sdwfrost/WNV-forecast-project-2023
+license: cc-by-4.0
+team_model_designation: primary
+methods: INLA model, with case count modeled as a zero-inflated negative binomial distribution, with fixed effects for state and month.
+ensemble_of_hub_models: false
+data_inputs: No additional covariates.
+team_funding: Microsoft and The Trinity Challenge.
+
