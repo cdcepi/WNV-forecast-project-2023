@@ -1,0 +1,96 @@
+team_name: DART Lab at UC Davis
+model_name: Spatiotemporal modeling neuroinvasive WNV 
+model_abbr: UCDAVIS_model2023_WNV
+model_contributors: 
+Aynaz Lotfata-Veterinary Medicine School, University of California Davis        alotfata@ucdavis.edu
+
+Matteo Marcantonio- Université Catholique de Louvain                  matteo.marcantonio@uclouvain.be
+
+Chris Barker-Veterinary Medicine School, University of California Davis        cmbarker@ucdavis.edu
+
+team_model_designation: primary
+ensemble_of_hub_models: false
+Methods: To model the WNV neuroinvasive case data, a spatio-temporal hurdle model was employed, which incorporates two likelihoods: a binomial likelihood for the occurrence of WNV and a log-normal distribution for the number of WNV cases. The binomial model parameters were estimated using Bayesian inference and log-normal model parameters were estimated using frequentist inference. The log-normal distribution describes the distribution of a random variable whose logarithm is normally distributed. The first part of the model presents a binary component that generates zeros and ones, where zero corresponds to the zero values and one corresponds to positive values. The second part of the model has a count component that generates non-zero and non-integer values. We used a binomial model for the binary process and a log-normal for the positive WNV count. 
+
+An offset term equal to the natural logarithm of total population in a county was included in the log-normal likelihood. Thus, we assumed that the number of WNV neuroinvasive disease cases is proportional to the population at risk, and the binomial probability of WNV occurrence was modeled using an offset equal to the natural logarithm of the population at greatest risk (over age 65). The linear predictors for both models logit(p_i,j) and log(mu_i,j) are defined considering a range of covariates within the fixed design matrix. We assumed that the random effect component of the models are represented by a sum of terms considering the dependence of data with respect to space i (county) and time j (month). It is important to highlight that we modeled WNV cases at the county level first, then aggregated the expected distributions of case counts to the state level. 
+
+For the models, temporal terms were defined to represent temporal autocorrelation in county-level data series. Temporal connections assumed a random walk of first order. For the spatial effects of the model, a Besag-York-Mollie (BYM) model was applied for spatial autocorrelation between county (i) and its neighbors. The BYM model is a combination of an exchangeable, area-specific random effects, and the spatially structured area-specific effect. Here, we used a scaled parameterization of the BYM model, BYM2, which has been shown to perform better than BYM. Both spatially and temporally structured effects are shared between the two likelihoods of the hurdle model. The fixed effect matrix is composed by covariates which vary only in space (county), such as land use, bird species richness and relative abundance, or in both space (county) and time (month), such as climatic conditions.
+
+The model was implemented using integrated nested Laplace approximations (INLA) algorithm. We assumed zero mean Gaussian prior distributions for all the regression parameters. We chose penalized complexity (PC) priors on hyperparameters. PC is a prior distribution which, if data are not informative, shrinks the parameter estimate toward a "base model," that is, characterized by spatial overdispersion or by no spatial or temporal auto-regressive structure, preventing overfitting.
+
+Model selection was performed starting with a random-effects-only model and variables were added iteratively while checking whether the predictive ability of the model data improved. As criterion for model selection, we used the logscore of the Conditional Prediction Ordinate (CPO). To better explain geographical variances, we ran the model selection separately for each of NOAA's nine climatic divisions. 
+
+All model covariates were centered (subtracting the mean) and scaled (dividing by the standard deviation).
+
+Because monthly WNV disease data were not available at county scales, we reconstructed monthly cases for each county by allocating the total county-annual cases for the county by the fraction of WNV cases per month for the same state. This was necessary to model monthly WNV case counts at the county level before aggregating to the state level.
+
+The following covariates were considered as candidates for inclusion in the models for each region:
+
+1. Average monthly temperature (PRISM)
+
+1.1 Average temperature (1-month lag) 
+1.2 Average temperature (2-month lag) 
+1.3 Average temperature (3-month lag) 
+1.4 Average temperature (4-month lag) 
+1.5 Average temperature (4-month lag) 
+
+2. Monthly precipitation  (PRISM)
+
+2.1 Cumulative precipitation (1-month lag) 
+2.2 Cumulative precipitation (2-month lag) 
+2.3 Cumulative precipitation (3-month lag) 
+2.4 Cumulative precipitation (4-month lag) 
+2.5 Cumulative precipitation (5-month lag) 
+
+3. Average drought (PDSI) index (NOAA)
+
+3.1 Average drought index (1-month lag) 
+3.2 Average drought index (2-month lag) 
+3.3 Average drought index (3-month lag) 
+3.4 Average drought index (4-month lag) 
+3.4 Average drought index (4-month lag) 
+3.5 Average drought index (5-month lag) 
+
+4. Seasonal average temperature 
+4.1 Average temperature (December, January, February)
+4.2 Average temperature (March, April, May)
+4.3 Average temperature (June July, August)
+4.4 Average temperature (September, October, November)
+
+5. Seasonal average drought index 
+5.1 Average drought index (December, January, February)
+5.2 Average drought index (March, April, May)
+5.3 Average drought index (June July, August)
+5.4 Average drought index (September, October, November)
+
+6. Seasonal cumulative precipitation 
+6.1 Average drought index (December, January, February)
+6.2 Average drought index (March, April, May)
+6.3 Average drought index (June July, August)
+6.4 Average drought index (September, October, November)
+
+7. Percentage coverage of developed land use (NLCD); 2016.
+
+8. Percentage coverage of forest land use (NLCD); 2016.
+
+9. Relative abundance of Carpodacus mexicanus, house finch (North American Breeding Bird Survey); 2000-2018 average.
+
+10. Total bird species richness (North American Breeding Bird Survey); 2000-2018 average.
+
+11. Population above 65 years (US Census Bureau); 2010. Number of trials in the binomial likelihood.
+
+12. Total population count (US Census Bureau); 2010. Offset term on the log-normal likelihood.
+
+13. Mosquito abundance per trap-night (VectorSurv)  [num_adult_females_collected/num_trap_nights] 
+
+14. Mosquito infection prevalence (VectorSurv) [num_pools_wnv/num_mosquitoes]
+
+           
+
+
+
+
+
+
+
+
