@@ -1,0 +1,12 @@
+team_name: Mount Sinai Environmental Medicine and Public Health
+model_name: MSSM_Emp_April_2023
+model_abbr: MSSM_Apr
+model_contributors: Nicholas DeFelice (Mount Sinai Environmental Medicine and Public Health) <nicholas.defelice@mssm.edu>, Aman Patel (Mount Sinai Environmental Medicine and Public Health) <aman.patel1@mssm.edu>, Matthew Ward (Mount Sinai Environmental Medicine and Public Health)
+website_url: 
+license: cc-by-4.0
+team_model_designation: primary
+methods: Empirical distributions of monthly WNV cases for states and their respective plant hardiness zones combined to create weighted distributions (50% state, 50% plant hardiness zone).
+ensemble_of_hub_models: false
+team_funding: NIEHS P30 ES023515 grant and CUNY Pilot Award, Grant Number: 1K25HD109509-01 (Principal Investigator: DeFelice, Nicholas B)
+data_inputs: Monthly historical WNV neuroinvasive cases by state from ArboNET. Plant hardiness zones by zip code downloaded from PRISM. Zip code population densities from 2020 US Census data on SimpleMaps.
+institutional_affil: Icahn School of Medicine at Mount Sinai
