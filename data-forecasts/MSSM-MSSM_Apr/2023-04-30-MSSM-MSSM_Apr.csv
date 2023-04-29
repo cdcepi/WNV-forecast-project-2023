@@ -1,4 +1,4 @@
-"location","forecast_date","target_end_date","target","type","quantile","values"
+"location","forecast_date","target_end_date","target","type","quantile","value"
 "Alabama","2023-04-30","2023-5-31","May WNV neuroinvasive disease cases","quantile",0.01,0
 "Alabama","2023-04-30","2023-5-31","May WNV neuroinvasive disease cases","quantile",0.025,0
 "Alabama","2023-04-30","2023-5-31","May WNV neuroinvasive disease cases","quantile",0.05,0
