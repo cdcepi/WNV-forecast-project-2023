@@ -5,6 +5,6 @@ model_contributors: Ishaan Sinha (Stevens Institute of Technology) <ishaan.mohan
 website_url: https://github.com/ishaan-sinha/WNV2023Challenge
 license: cc-by-4.0
 team_model_designation: primary
-methods: This is a test model, so no methods are used
+methods: A temporal fusion transformer was trained for each state to make 9 month ahead quantile predictions. Several models were trained and tested, the final results include the best model for each state.
 ensemble_of_hub_models: false
-data_inputs: This is a test model, so no inputs are used
+data_inputs: Various NOAA monthly weather data is used(average temperature, max temperature, min temperature, precipitation, z-index etc.) per state. Also, cyclical temporal inputs are used.
