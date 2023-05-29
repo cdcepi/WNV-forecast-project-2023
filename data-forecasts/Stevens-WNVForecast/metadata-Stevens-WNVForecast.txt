@@ -1,10 +1,11 @@
 team_name: Stevens WNV Forecasting Team
 model_name: Stevens WNV Forecasting Model
 model_abbr: Stevens-WNVForecast
-model_contributors: Ishaan Sinha (Stevens Institute of Technology) <ishaan.mohan.sinha@gmail.com>, Nikhil Muralidhar (Stevens Institute of Technology) <nmurali1@stevens.edu>
+model_contributors: Ishaan Sinha (Stevens Institute of Technology) <isinha@stevens.edu>, Nikhil Muralidhar (Stevens Institute of Technology) <nmurali1@stevens.edu>
 website_url: https://github.com/ishaan-sinha/WNV2023Challenge
 license: cc-by-4.0
 team_model_designation: primary
 methods: A temporal fusion transformer was trained for each state to make 9 month ahead quantile predictions. Several models were trained and tested, the final results include the best model for each state.
 ensemble_of_hub_models: false
-data_inputs: Various NOAA monthly weather data is used(average temperature, max temperature, min temperature, precipitation, z-index etc.) per state. Also, cyclical temporal inputs are used.
+data_inputs: Various NOAA monthly weather data is used(average temperature, max temperature, min temperature, precipitation, z-index etc.) per state. Also, the month is encoded into the model cycically.
+The model also uses the supplied arbovirus data, locally. The model incorporates this data by using the min/max/average of the infection rate and rate/trap for all collected counties within 500 miles.
