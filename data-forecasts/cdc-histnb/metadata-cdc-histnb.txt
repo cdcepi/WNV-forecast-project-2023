@@ -1,0 +1,11 @@
+team_name: CDC
+model_name: historical negative binomial baseline
+model_abbr: cdc-histnb
+model_contributors: Ryan Harp (NOAA/CDC) <ryan.harp@noaa.gov>, Michael Johansson (CDC) <eyq19@cdc.gov>
+website_url: https://github.com/cdcepi/WNV-forecast-project-2023
+license: cc-by-4.0
+team_model_designation: primary
+ensemble_of_hub_models: false
+methods: Quantiles from state-month-specific negative binomial fit to 2005-2022 historical WNV data (2022 data was provisional at time of creation)
+data_inputs: state-month counts of WNV cases
+methods_long: This is a baseline model created from 2005-2022 historical WNV reported case counts. A state-month-specific negative binomial distribution was fit to the historical data and quantiles calculated based on the empirically determined distribution parameters. State-months with no historical cases were supplied quantiles based on a heavily zero-weighted Bayesian fit. 

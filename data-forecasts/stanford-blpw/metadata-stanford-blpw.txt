@@ -1,0 +1,11 @@
+team_name: Mordecai Lab at Stanford University
+model_name: Baseline and Past Weather
+model_abbr: stanford-blpw
+model_contributors: Mauricio Cruz-Loya (Stanford University) <cruzloya@stanford.edu>, Caroline Glidden (Stanford University), Mallory Harris (Stanford University), Desire Uwera Nalukwago (Stanford University), Isabel Delwel (Stanford University)
+website_url: https://github.com/mcruzloya/WNV-forecast-project-2023
+license: cc-by-4.0
+team_model_designation: primary
+methods: Depending on state/month, choice between XGBoostLSS negative binomial regression model and a baseline negative binomial model.
+ensemble_of_hub_models: false 
+data_inputs: WNV neuroinvasive cases in previous year (CDC), ERA5 monthly-averaged weather data, US Census (population).
+methods_long: "The best performing model for each state and month between a baseline negative binomial model and an XGBoostLSS negative binomial regression model was chosen by cross-validation, taking 2020, 2021 and 2022 as test years in turn and training on data for prior years. Mean air temperature, dew-point temperature and precipitation averaged at the state level from the previous year were included both as 12, 13 and 14 month lagged variables and as seasonal averages (spring, summer, autumn, winter) from the previous year. Information from neuroinvasive WNV cases was included in the model both as a) the fitted model parameters from a negative binomial baseline model, b) the total number of cases in the state in the past year and c) the total number of cases in the state in the same month as the predicted month in the previous year. Despite the baseline model parameters being included as predictors, the baseline model outperformed the XGBoostLSS model in many states. Due to this, for this month we chose to present the predictions of the best performing model in a state and month-specific way depending on cross-validation performance."
