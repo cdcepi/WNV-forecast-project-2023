@@ -7,4 +7,4 @@ license: cc-by-4.0
 team_model_designation: primary
 methods: A temporal fusion transformer was trained for each state to make 9 month ahead quantile predictions. Several models were trained and tested, the final results include the best model for each state.
 ensemble_of_hub_models: false
-data_inputs: Various NOAA monthly weather data is used(average temperature, max temperature, min temperature, precipitation, z-index etc.) per state. Also, cyclical temporal inputs are used.
+data_inputs: Various NOAA monthly weather data is used(average temperature, max temperature, min temperature, precipitation, z-index) per state. Also, cyclical temporal inputs are used.
