@@ -1,0 +1,11 @@
+team_name: UW-Madison Water Systems and Society Group
+model_name: Water Systems and Society model
+model_abbr: UWmad-WSSmodel
+model_contributors: Max Beal (University of Wisconsin - Madison), Paul Block (University of Wisconsin - Madison)
+website_url: https://github.com/mrwbeal/WSSmodel.git
+license: cc-by-4.0
+team_model_designation: primary
+ensemble_of_hub_models: false
+methods: State level principal component analysis and regression model using significantly correlating predictors for West Nile virus. For state-month pairs without predictors, the historical record is used.
+team_funding: NA
+data_inputs: ERA5 state-level spring means (Jan-Apr) 2m temperature, precipitation, soil moisture, 1000mb relative humidity, sea surface temperatures, VectorSurv spring (Jan-Apr) mosquito abundance, infection rate

@@ -1,0 +1,86 @@
+team_name: University of Notre Dame
+model_name: ARBayesWNV
+model_abbr: UND-ARBayesWNV
+model_contributors: Stacy Mowry (University of Notre Dame) <smowry@nd.edu>, Alan Costello (University of Notre Dame), Sean Moore (University of Notre Dame), Alex Perkins (University of Notre Dame)
+website_url: https://github.com/Stacymowry
+license: cc-by-4.0
+team_model_designation: primary
+ensemble_of_hub_models: false
+methods: A bayesian state-level seasonal, autoregressive model with climate covariates and spatial autocorrelation. May forecasts updated after discovery of bug in code
+data_inputs: SP03 - a transformation of the probability of observing a given amount of precipitation in 3 months. Temp - mean monthly temperature.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

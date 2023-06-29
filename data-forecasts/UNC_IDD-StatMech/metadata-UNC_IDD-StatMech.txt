@@ -1,0 +1,10 @@
+team_name: UNC ID Dynamics StatMech Team
+model_name: StatMech
+model_abbr: UNC_IDD-StatMech
+model_contributors: Jessie Edwards (UNC Epidemiology) <jessedwards@unc.edu>, Justin Lessler (UNC Epidemiology) <jlessler@unc.edu>
+website_url: https://github.com/edwardsjk/WNV-forecast-project-2023
+license: cc-by-4.0
+team_model_designation: primary
+methods: Merged statistical and mechanistic models, including ensemble learning approaches
+ensemble_of_hub_models: false
+data_inputs: US Census (population), NCEI (precipitation and temperature data) .

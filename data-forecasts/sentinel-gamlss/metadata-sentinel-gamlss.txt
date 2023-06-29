@@ -1,0 +1,13 @@
+
+team_name: Sentinel
+model_name: GAMLSS ZIBNB
+model_abbr: sentinel-gamlss
+model_contributors: Simon Frost (Microsoft Premonition) <sdwfrost@microsoft.com>, Rory Gibb (UCL) <rory.gibb.14@ucl.ac.uk>, Natalie Imirzian (Institute of Zoology) <natalie.imirzian@ioz.ac.uk>, Kate Jones (UCL) <kate.e.jones@ucl.ac.uk>, David Redding (Institute of Zoology) <dwredding@gmail.com>
+website_url: https://github.com/sdwfrost/WNV-forecast-project-2023
+license: cc-by-4.0
+team_model_designation: primary
+methods: GAMLSS model with state and month as categorical variables, with case count modeled as a zero-inflated beta negative binomial distribution.
+ensemble_of_hub_models: false
+data_inputs: No additional covariates.
+team_funding: Microsoft and The Trinity Challenge.
+
