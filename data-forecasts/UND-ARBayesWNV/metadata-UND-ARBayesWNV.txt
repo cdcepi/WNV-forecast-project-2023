@@ -6,7 +6,7 @@ website_url: https://github.com/Stacymowry
 license: cc-by-4.0
 team_model_designation: primary
 ensemble_of_hub_models: false
-methods: A bayesian state-level seasonal, autoregressive model with climate covariates and spatial autocorrelation. May forecasts updated after discovery of bug in code
+methods: A bayesian state-level seasonal, autoregressive model with climate covariates and spatial autocorrelation. May updated fixed bug. June update includes true covariates.
 data_inputs: SP03 - a transformation of the probability of observing a given amount of precipitation in 3 months. Temp - mean monthly temperature.
 
 
