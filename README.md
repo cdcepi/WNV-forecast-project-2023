@@ -2,6 +2,9 @@
 
 This is the data repository for the 2023 CDC West Nile virus Forecasting Challenge. This is an _**open**_ forecasting challenge to predict **monthly** West Nile virus (WNV) neuroinvasive disease cases in **U.S. states** during the 2023 calendar year.
 
+### Forecast Reports
+Forecast summary reports are released monthly and are available [here]/(monthly-forecast-reports/). These reports aggregate submissions from modeling teams (submitted prior to the most recent as time of publishing), a forecast ensemble developed from individual model submissions, 10-year historical medians, and a baseline model built on historical data. All forecasts are provided at the state-month level through the end of the year and predict reported cases of West Nile virus neuroinvasive disease (WNND).
+
 ### Participation
 To participate in the Challenge, please follow these steps:
 1. [Request WNV data](Data-Human.md) by sending a signed Data Use Agreement to <vbd-predict@cdc.gov>.
