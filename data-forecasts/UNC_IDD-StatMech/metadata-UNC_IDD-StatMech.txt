@@ -7,4 +7,4 @@ license: cc-by-4.0
 team_model_designation: primary
 methods: Merged statistical and mechanistic models, including ensemble learning approaches
 ensemble_of_hub_models: false
-data_inputs: VectorSurv (mosquito abundance and infection data), US Census (population), Prism (precipitation and climate data).
+data_inputs: US Census (population), NCEI (precipitation and temperature data), case counts to date (CDC).
