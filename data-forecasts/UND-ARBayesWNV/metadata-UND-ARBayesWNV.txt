@@ -6,7 +6,7 @@ website_url: https://github.com/Stacymowry
 license: cc-by-4.0
 team_model_designation: primary
 ensemble_of_hub_models: false
-methods: A bayesian seasonal autoregressive model w climate covars & spatial correlation. May- fixed bug. June- incorporated recent covariates. July- quadratic term for precipitation. 
+methods: A bayesian seasonal autoregressive model w climate covars & spatial correlation. May- fixed bug. July- quadratic term for precipitation. 
 data_inputs: SP03 - a transformation of the probability of observing a given amount of precipitation in 3 months. Temp - mean monthly temperature.
 
 
