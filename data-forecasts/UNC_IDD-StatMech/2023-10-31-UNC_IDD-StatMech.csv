@@ -77,11 +77,11 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.25,9
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.3,10
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.35,10
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.4,10
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.4,11
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.45,11
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.5,11
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.5,12
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.55,12
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.6,12
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.6,13
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.65,13
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.7,14
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Arizona","quantile",0.75,14
@@ -286,18 +286,18 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.35,39
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.4,40
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.45,41
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.5,43
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.5,42
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.55,44
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.6,45
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.65,47
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.65,46
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.7,48
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.75,50
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.8,52
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.85,54
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.9,57
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.95,61
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.975,65
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.99,69
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.75,49
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.8,51
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.85,53
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.9,56
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.95,60
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.975,64
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Colorado","quantile",0.99,68
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Colorado","quantile",0.01,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Colorado","quantile",0.025,2
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Colorado","quantile",0.05,3
@@ -412,7 +412,7 @@
 2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"Connecticut","quantile",0.9,0
 2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"Connecticut","quantile",0.95,0
 2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"Connecticut","quantile",0.975,0
-2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"Connecticut","quantile",0.99,1
+2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"Connecticut","quantile",0.99,0
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Delaware","quantile",0.01,0
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Delaware","quantile",0.025,0
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Delaware","quantile",0.05,0
@@ -710,7 +710,7 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Illinois","quantile",0.85,5
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Illinois","quantile",0.9,6
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Illinois","quantile",0.95,7
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Illinois","quantile",0.975,8
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Illinois","quantile",0.975,7
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Illinois","quantile",0.99,8
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.01,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.025,0
@@ -725,7 +725,7 @@
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.45,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.5,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.55,0
-2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.6,1
+2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.6,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.65,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.7,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Illinois","quantile",0.75,1
@@ -1008,7 +1008,7 @@
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Kentucky","quantile",0.8,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Kentucky","quantile",0.85,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Kentucky","quantile",0.9,0
-2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Kentucky","quantile",0.95,1
+2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Kentucky","quantile",0.95,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Kentucky","quantile",0.975,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Kentucky","quantile",0.99,1
 2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"Kentucky","quantile",0.01,0
@@ -1677,7 +1677,7 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Nebraska","quantile",0.9,11
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Nebraska","quantile",0.95,13
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Nebraska","quantile",0.975,14
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Nebraska","quantile",0.99,16
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Nebraska","quantile",0.99,15
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Nebraska","quantile",0.01,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Nebraska","quantile",0.025,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Nebraska","quantile",0.05,0
@@ -1944,13 +1944,13 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.45,5
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.5,5
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.55,5
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.6,5
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.6,6
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.65,6
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.7,6
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.75,7
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.8,7
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.85,8
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.9,8
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.9,9
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.95,10
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.975,11
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"New Mexico","quantile",0.99,12
@@ -2113,7 +2113,7 @@
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"North Carolina","quantile",0.85,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"North Carolina","quantile",0.9,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"North Carolina","quantile",0.95,1
-2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"North Carolina","quantile",0.975,2
+2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"North Carolina","quantile",0.975,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"North Carolina","quantile",0.99,2
 2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"North Carolina","quantile",0.01,0
 2023-10-31,"December WNV neuroinvasive disease cases",2023-12-31,"North Carolina","quantile",0.025,0
@@ -2284,7 +2284,7 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.2,3
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.25,3
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.3,3
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.35,4
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.35,3
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.4,4
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.45,4
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Oklahoma","quantile",0.5,4
@@ -2432,7 +2432,7 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.7,2
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.75,2
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.8,2
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.85,2
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.85,3
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.9,3
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.95,3
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Pennsylvania","quantile",0.975,4
@@ -2780,8 +2780,8 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Texas","quantile",0.85,8
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Texas","quantile",0.9,9
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Texas","quantile",0.95,11
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Texas","quantile",0.975,13
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Texas","quantile",0.99,16
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Texas","quantile",0.975,14
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"Texas","quantile",0.99,17
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Texas","quantile",0.01,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Texas","quantile",0.025,0
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"Texas","quantile",0.05,0
@@ -3124,7 +3124,7 @@
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"West Virginia","quantile",0.8,0
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"West Virginia","quantile",0.85,0
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"West Virginia","quantile",0.9,0
-2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"West Virginia","quantile",0.95,0
+2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"West Virginia","quantile",0.95,1
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"West Virginia","quantile",0.975,1
 2023-10-31,"October WNV neuroinvasive disease cases",2023-10-31,"West Virginia","quantile",0.99,1
 2023-10-31,"November WNV neuroinvasive disease cases",2023-11-30,"West Virginia","quantile",0.01,0
